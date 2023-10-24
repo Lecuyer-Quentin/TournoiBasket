@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// main{
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #212529;
+}
