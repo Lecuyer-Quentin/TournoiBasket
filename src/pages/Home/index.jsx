@@ -1,5 +1,5 @@
 import Footer from "../../components/Footer"
-import Header from "../../components/Header"
+// import Header from "../../components/Header"
 import Hero from "../../components/Hero"
 import Sponsor from "../../components/Sponsor"
 import Info from "../../components/Info"
@@ -8,7 +8,7 @@ import Contact from "../../components/Contact"
 const Home = () => {
   return (
       <div className="home">
-          <Header />
+          {/* <Header /> */}
           {/* <main> */}
                 <section className="hero">
                     <Hero />

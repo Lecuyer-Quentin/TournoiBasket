@@ -69,20 +69,21 @@
     }
     &__content{
         position: relative;
-        top: 20%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 1.6rem;
         font-weight: 900;
-        line-height: 4rem;
+        // line-height: 4rem;
         color: #000;
 
-        & a{
-            text-shadow: 2px 0 2px 10px rgba(0,0,0,0.4);
-            margin-left: 1rem;
+        & li{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
 
-            &:hover{
-                color: #ffffff;
+            & p{
+                margin-left: 1rem;
             }
         }
     }
@@ -96,10 +97,7 @@
         transform: translate(-50%, -50%);
         display:flex;
         flex-direction: column;
-        // background-color: #ffffff;
-        // justify-content: center;
-        // align-items: center;
-
+       
         & h3{
             font-size: 3rem;
             font-weight: 300;

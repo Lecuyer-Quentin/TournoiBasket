@@ -28,15 +28,15 @@ const Hero = () => {
         <ul>
           <li>
             <FontAwesomeIcon icon={faMusic} />
-            <a href="music">Musique Live</a>
+            <p>Musique Live</p>
           </li>
           <li>
             <FontAwesomeIcon icon={faBasketballBall} />
-            <a href="concours">Concours de 3 points</a>
+            <p>Concours de 3 points</p>
           </li>
           <li>
             <FontAwesomeIcon icon={faTrophy} />
-            <a href="recompenses">Récompenses</a>
+            <p>Récompenses</p>
           </li>
         </ul>
       </div>

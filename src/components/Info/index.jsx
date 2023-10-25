@@ -2,20 +2,46 @@
 const Info = () => {
   return (
     <article>
-        <h1 id="info">INFO</h1>
+        <h2>Organisateurs</h2>
 
         <div className="info__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni similique id nobis eos. Atque aliquid iste, ipsam nostrum voluptatibus, nisi amet, quo a quis corporis incidunt perspiciatis! Rem, cum?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, deserunt. Illum iusto quae suscipit quibusdam eaque vitae harum. Placeat, tenetur! Aliquid perferendis provident illo dignissimos totam magnam animi numquam molestias?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam at, officia quia culpa deserunt unde esse autem incidunt dolorum eos molestiae, beatae repellat obcaecati similique iure repellendus et velit eius.
-        </p>
-
-      </div>
+        
+        <div className="info__content__left">
+          <ul>
+            <li>
+              <p>Forcade Adrien</p>
+            </li>
+            <li>
+              <p>Santolaria Oceane</p>
+            </li>
+            <li>
+              <p>Lefevre Quentin</p>
+            </li>
+            <li>
+              <p>Rigaud Jean-Baptiste</p>
+            </li>
+            <li>
+              <p>Theureau Nathan</p>
+            </li>
+          </ul>
+        </div>
+         <div className="info__content__right">
+            <ul>
+              <li>
+              <p>Nguirane Mamebara</p>
+              </li>
+              <li>
+              <p>Gueroult Anais</p>
+              </li>
+              <li>
+              <p>Barret Pauline</p>
+              </li>
+              <li>
+              <p>Dohinnou Warren</p>
+            </li>
+            </ul>
+          </div>
+        </div>
     </article>
   )
 }
