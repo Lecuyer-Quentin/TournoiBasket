@@ -153,20 +153,20 @@ ul, li, a {
 }
 .hero__content {
   position: relative;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.6rem;
   font-weight: 900;
-  line-height: 4rem;
   color: #000;
 }
-.hero__content a {
-  text-shadow: 2px 0 2px 10px rgba(0, 0, 0, 0.4);
-  margin-left: 1rem;
+.hero__content li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.hero__content a:hover {
-  color: #ffffff;
+.hero__content li p {
+  margin-left: 1rem;
 }
 .hero__footer {
   height: 10rem;
@@ -246,20 +246,25 @@ ul, li, a {
 
 .info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   margin-top: 2rem;
+}
+.info h2 {
+  text-align: center;
 }
 .info__content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  position: relative;
+  left: 45%;
+  transform: translate(-50%);
 }
-.info__content p {
-  margin: 0 0.5rem;
+.info__content__right {
+  text-align: end;
 }
 
 .contact__content {

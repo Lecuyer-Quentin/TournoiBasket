@@ -6,7 +6,7 @@ const Info = () => {
 
         <div className="info__content">
         
-        <div className="info__content__left">
+          <div className="info__content__left">
           <ul>
             <li>
               <p>Forcade Adrien</p>
@@ -24,8 +24,9 @@ const Info = () => {
               <p>Theureau Nathan</p>
             </li>
           </ul>
-        </div>
-         <div className="info__content__right">
+          </div>
+         
+          <div className="info__content__right">
             <ul>
               <li>
               <p>Nguirane Mamebara</p>
